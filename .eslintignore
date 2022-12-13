@@ -1,0 +1,14 @@
+/*.*
+*.json
+/node_modules
+/public
+/scripts
+/out
+/.next
+/storybook-static
+generated
+/config
+.storybook
+/.husky/
+/storybook-static
+/fake-api/

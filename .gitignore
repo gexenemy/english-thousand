@@ -1,0 +1,131 @@
+### NextJS ###
+# Next build dir
+.next/
+/out/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### Strapi ###
+
+.env.development
+license.txt
+exports
+*.cache
+build
+.strapi-updater.json
+
+############################
+# OS X
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+# Linux
+
+*~
+
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+# Packages
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+# Logs and databases
+
+.tmp
+*.sql
+*.sqlite
+*.sqlite3
+
+
+# Misc.
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+.vs
+
+# Node.js
+
+lib-cov
+lcov.info
+pids
+results
+.node_history
+
+# Tests
+
+testApp
+coverage
+
+# GRAPH QL
+/src/generated/graphql.tsx
+/src/graphql/schema.graphql
+/graphql.schema.json
+
+#STORYBOOK
+/storybook-static
+
+#GIT
+/.github/
+
+#PNPM and NPM
+/pnpm-lock.yaml
+/package-lock.json
+!/.env.development
+/public/resources/uploads/

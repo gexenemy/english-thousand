@@ -1,0 +1,15 @@
+node_modules
+generated
+assets
+nginx
+public
+out
+.next
+storybook-static
+
+# Ignore artifacts:
+build
+coverage
+
+/.husky/
+

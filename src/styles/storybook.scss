@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+blockquote {
+    background: #ecf6ff;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+blockquote:before {
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+aside {
+    font-size: 87.5%;
+    line-height: 1.43;
+    color: #666666;
+    background: #f8fafc;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1.5em 0;
+}
+
+.tip {
+    display: inline-block;
+    border-radius: 1em;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    background: #e7fdd8;
+    color: #66bf3c;
+    padding: 4px 12px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.tip-wrapper {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tip-wrapper code {
+    font-size: 12px;
+    display: inline-block;
+}
