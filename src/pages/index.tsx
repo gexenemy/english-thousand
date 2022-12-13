@@ -1,7 +1,11 @@
+import { Header } from '@components/common/Header/Header';
+import { Word } from '@components/common/Word/Word';
+
 const Home = () => {
     return (
         <>
-            <h1>Hello from Starter Pack!!!</h1>
+            <Header />
+            <Word />
         </>
     );
 };
